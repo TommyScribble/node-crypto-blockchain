@@ -2,6 +2,8 @@ import { Block, Blockchain } from "./blockchain";
 
 let scribbleCoin = new Blockchain;
 
+console.log('thecoin mining progressing....');
+
 scribbleCoin.addNewBlock(new Block(1, "01/12/2021", {sender: "Dave", recipient: "Sam", quantity: 20}));
 scribbleCoin.addNewBlock(new Block(1, "01/12/2021", {sender: "Will", recipient: "Shawn", quantity: 75}));
 scribbleCoin.addNewBlock(new Block(1, "01/12/2021", {sender: "Simon", recipient: "Rob", quantity: 534}));
